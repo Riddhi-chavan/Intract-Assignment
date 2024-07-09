@@ -1,15 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Essentials from "./components/Essentials";
-import Roadmap from "./components/Roadmap";
+import Button from "./components/Button";
 
 function App() {
-  const [isEssentials, setIsEssentials] = useState(true);
   return (
     <>
       <Navbar />
+      <Button />
       <Essentials />
     </>
   );
